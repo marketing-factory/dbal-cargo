@@ -1,0 +1,19 @@
+{
+	"name": "mfc/dbal-cargo",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Christian Spoo",
+			"email": "christian.spoo@marketing-factory.de"
+		}
+	],
+	"require": {
+		"doctrine/dbal": "^2.11"
+	},
+	"autoload": {
+		"psr-4": {
+			"Mfc\\Dbal\\Cargo\\": "src/"
+		}
+	}
+}

@@ -1,0 +1,10 @@
+.idea
+.DS_Store
+
+/bin/*
+/vendor/*
+
+Thumbs.db
+/docker-compose.yml
+/.env.local
+composer.lock
